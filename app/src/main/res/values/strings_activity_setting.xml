@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_settings">Setting</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Headers -->
+    <string name="settingsHeaderNetwork">Network</string>
+    <string name="settingsHeaderNotifications">Notification</string>
+    <string name="settingsHeaderPomodoro">Pomodoro</string>
+
+    <!-- Pomodoro settings  -->
+    <string name="strPomodoroDuration">Pomodoro Time</string>
+    <string name="strShortBreakDuration">Short time break</string>
+    <string name="strLongBreakDuration">Long time break</string>
+    <string name="strLongBreakInterval">Long break Interval</string>
+
+    <string-array name="arrPomodoroDurationTitles">
+        <item name="0">Debug: 15s</item>
+        <item name="20">20 minute</item>
+        <item name="30">30 minute</item>
+        <item name="40">40 minute</item>
+        <item name="50">50 minute</item>
+        <item name="60">60 minute</item>
+    </string-array>
+    <string-array name="arrPomodoroDurationValues">
+        <item name="0">15000</item>
+        <item name="20">1200000</item>
+        <item name="30">1800000</item>
+        <item name="40">2400000</item>
+        <item name="50">3000000</item>
+        <item name="60">3600000</item>
+    </string-array>
+
+    <string-array name="arrShortBreakDurationTitles">
+        <item name="0">Debug: 5s</item>
+        <item name="5">5 minutes</item>
+        <item name="10">10 minutes</item>
+        <item name="15">15 minutes</item>
+    </string-array>
+    <string-array name="arrShortBreakDurationValues">
+        <item name="0">5000</item>
+        <item name="5">300000</item>
+        <item name="10">600000</item>
+        <item name="15">900000</item>
+    </string-array>
+
+    <string-array name="arrLongBreakDurationTitles">
+        <item name="0">Debug: 7s</item>
+        <item name="15">15 minutes</item>
+        <item name="20">20 minutes</item>
+        <item name="30">30 minutes</item>
+    </string-array>
+    <string-array name="arrLongBreakDurationValues">
+        <item name="0">7000</item>
+        <item name="15">900000</item>
+        <item name="20">1200000</item>
+        <item name="30">1800000</item>
+    </string-array>
+
+    <string-array name="arrLongBreakIntervalTitles">
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7">7</item>
+        <item name="8">8</item>
+        <item name="9">9</item>
+        <item name="10">10</item>
+    </string-array>
+    <string-array name="arrLongBreakIntervalValues">
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="6">6</item>
+        <item name="7">7</item>
+        <item name="8">8</item>
+        <item name="9">9</item>
+        <item name="10">10</item>
+    </string-array>
+
+
+    <!-- Dropbox Settings-->
+    <string name="strDropbox">Dropbox</string>
+
+    <!-- Notifications Settings -->
+    <string name="useSoundTitle">Use alarm</string>
+    <string name="ringtoneTitle">Audibility</string>
+    <string name="isSilent">Mute</string>
+
+</resources>

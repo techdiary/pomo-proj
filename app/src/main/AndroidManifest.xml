@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.andy.pomo_proj">
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-feature android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.andy.pomo_proj.PomodoroList"
+            android:label="@string/title_activity_pomodoro_list" >
+        </activity>
+        <activity
+            android:name="com.example.andy.pomo_proj.SettingsActivity"
+            android:label="Setting" >
+        </activity>
+        <activity
+            android:name="com.example.andy.pomo_proj.TagList"
+            android:label="Tags" >
+
+        </activity>
+
+        <activity
+            android:name="com.example.andy.pomo_proj.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.example.andy.pomo_proj.PomodoroDetails"
+            android:label="@string/title_activity_pomodoro_details" >
+        </activity>
+
+        <provider
+            android:name=".PomodoroContentProvider"
+            android:authorities="com.example.pomo_proj.PomodoroContentProvider"
+            android:exported="false" >
+        </provider>
+    </application>
+
+</manifest>

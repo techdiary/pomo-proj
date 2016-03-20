@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="${packageName}.${activityClass}">
+    <TextView
+        android:id="@+id/detailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="24dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/detailsStartDateHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/detailsTitle"
+        android:layout_below="@+id/detailsTitle"
+        android:layout_marginTop="30dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/detailsStopDateHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/detailsStartDateHour"
+        android:layout_below="@+id/detailsStartDateHour"
+        android:layout_marginTop="28dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/detailsNumInRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/detailsStopDateHour"
+        android:layout_below="@+id/detailsStopDateHour"
+        android:layout_marginTop="30dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/detailsEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/detailsRemove"
+        android:layout_alignBottom="@+id/detailsRemove"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="27dp"
+        android:text="@string/edit" />
+
+    <Button
+        android:id="@+id/detailsRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/detailsNumInRow"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp"
+        android:text="@string/remove" />
+
+    <ListView
+        android:id="@+id/taglist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/detailsEdit"
+        android:layout_alignLeft="@+id/detailsTitle"
+        android:layout_alignRight="@+id/detailsEdit"
+        android:layout_below="@+id/detailsNumInRow" >
+
+    </ListView>
+
+</RelativeLayout>

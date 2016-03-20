@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editPomodoroTitle" type="id" />
+    <item name="editPomodoroStartDate" type="id" />
+    <item name="editPomodoroStartHour" type="id" />
+    <item name="editPomodoroStopDate" type="id" />
+    <item name="editPomodoroStopHour" type="id" />
+    <item name="editPomodoroNumInRow" type="id" />
+</resources>

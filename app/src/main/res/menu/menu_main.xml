@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.andy.pomo_proj.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="3"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/pomodoro_list"
+        android:orderInCategory="1"
+        android:title="Lists"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tag_list"
+        android:orderInCategory="2"
+        android:title="Tags"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="4"
+        android:title="About" />
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+        android:orderInCategory="5" />
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--          A 'parent' preference, which enables/disables child preferences (below) -->
+    <!--          when checked/unchecked. -->
+    <!--     -->
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useSound"
+        android:title="@string/useSoundTitle" />
+
+    <!--     Allows the user to choose a ringtone in the 'notification' category. -->
+    <!--     NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <!--     NOTE: RingtonePreference's summary should be set to its value by the activity code. -->
+    <RingtonePreference
+        android:defaultValue="content://settings/system/notification_sound"
+        android:dependency="useSound"
+        android:key="alarmRingtone"
+        android:ringtoneType="notification"
+        android:title="@string/ringtoneTitle" />
+
+
+</PreferenceScreen>

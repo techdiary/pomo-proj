@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Pomo-proj</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Witaj świecie!</string>
+    <string name="startButton">Start</string>
+    <string name="stopButton">Stop</string>
+    <string name="pauseButton">Pause</string>
+    <string name="timer">00:00</string>
+    <string name="pomorolist">List Pomodoro</string>
+    <string name="taglist">List of Tag</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_pomodoro_list">List Pomodoro</string>
+    <string name="title_activity_about">About</string>
+    <string name="send_to_dropbox">Send to dropbox</string>
+    <string name="title_activity_pomodoro_details">Pomodoro</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="title_activity_dropbox_link">Dropbox</string>
+    <string name="link_button">Connect to DropBox</string>
+    <string name="unlink_button">Disconnect to Dropboz</string>
+    <string name="sync_button">Sync to Dropbox</string>
+    <string name="countingStateNothing">Pomodoro</string>
+    <string name="countingStatePomodoro">Take Pomodoro&#8230;</string>
+    <string name="countingStateBreak">Take Break&#8230;</string>
+    <string name="countingStatePause">Pause</string>
+    <string name="title_activity_tag_list">Tag List</string>
+    <string name="title_activity_tag_details">Tag information</string>
+    <string name="title_activity_tag_edit">Add/Edit Tag</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="addTag">Add a Tag!</string>
+    <string name="title_activity_pomodoro_edit">Edit Pomodoro</string>
+</resources>
